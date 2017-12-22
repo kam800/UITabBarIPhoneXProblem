@@ -1,5 +1,7 @@
 # UITabBar iPhoneX problem
 
+https://openradar.appspot.com/radar?id=6668416337313792
+
 There is a problem with `UITabBar` used without `UITabBarController` on iPhone X. The `UITabBar` layout is broken:
 
 ![broken](imgs/broken.png)
@@ -20,3 +22,4 @@ Layout can be fixed using following workaround:
 So the layout is correct again:
 
 ![ok](imgs/ok.png)
+
